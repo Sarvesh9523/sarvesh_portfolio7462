@@ -90,7 +90,7 @@ body {
 
 @keyframes glow {
     0% {
-        box-shadow: 0 0 20px #00eeff, 0 0 40px #00eeff;
+        box-shadow: 0 0 10px #00eeff, 0 0 40px #00eeff;
     }
 
     100% {
