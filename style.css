@@ -90,7 +90,7 @@ body {
 
 @keyframes glow {
     0% {
-        box-shadow: 0 0 10px #00eeff, 0 0 40px #00eeff;
+        box-shadow: 0 0 10px #00eeff, 0 0 20px #00eeff;
     }
 
     100% {
@@ -282,7 +282,7 @@ body {
     font-weight: 13px;
     border-radius: 20px;
     transition: background 0.5s, transform 0.5s;
-    box-shadow: 1px 1px 20px #012290f7, 1px 1px 40px #0053b8f7;
+    border: 1px solid #193c55;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -333,6 +333,8 @@ body {
 
 .services-list div:hover {
     transform: translateY(-10px);
+    box-shadow: 0px 0px 2rex rgb(7, 136, 148);
+    border: 1px solid rgb(7, 136, 148);
 }
 
 /* Skills Section */
@@ -619,9 +621,9 @@ body {
 
 .portfolio-content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 2rem;
-    padding: 20px 10%;
+    padding: 20px 0;
 }
 
 .row {
@@ -643,6 +645,7 @@ body {
 .portfolio {
     max-width: 1200px;
     margin: 0 auto;
+    
 }
 
 .main-text h2 {
@@ -655,11 +658,6 @@ body {
     color: #0ef;
 }
 
-.portfolio-content {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 30px;
-}
 
 .row {
     position: relative;
